@@ -1,0 +1,151 @@
+/* Navbar Brand */
+
+.navbar-brand {
+    font-size: 2rem !important;
+    /* margin-left: 0; */
+}
+
+
+/* Hero Section */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1,
+.hero p,
+.hero a {
+    color: white;
+}
+
+.hero .hero a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* Grid Photo Gallery */
+
+.Portfolio-h1 {
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.col-md-4 {
+    position: relative;
+    overflow: hidden;
+}
+
+.col-md-4 img {
+    transition: transform 0.3s ease;
+}
+
+.col-md-4:hover img {
+    transform: scale(3);
+}
+
+
+/* Testimonial heading */
+
+.testimonial-h1 {
+    text-align: center;
+}
+
+
+/* Testimonial Slider */
+
+.testimonial {
+    padding: 50px 0;
+}
+
+.testimonial-content h3 {
+    text-align: center;
+}
+
+.testimonial-content p {
+    margin-left: 20px;
+}
+
+.testimonial img {
+    height: 500px;
+    border-radius: 20px;
+}
+
+.carousel-caption {
+    text-align: center;
+    color: #000;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-size: 1.8rem !important;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 2rem !important;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .testimonial-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .testimonial-content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .testimonial-img-container {
+        max-width: 100%;
+        height: auto;
+    }
+    .testimonial-content {
+        width: 100%;
+    }
+}
